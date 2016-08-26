@@ -3,6 +3,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  color: rgb(86, 83, 76);
 }
 
 header {
@@ -13,6 +14,7 @@ header {
   background-color: rgba(86, 83, 76, 0.5);
 }
 
+/*header*/
 .centerSection {
   width: 80%;
   margin: 0 auto;
@@ -28,6 +30,7 @@ header {
   display: inline;
 }
 
+/*navigation menu */
 .mainMenu {
   display: inline;
   padding: 0;
@@ -69,7 +72,10 @@ header {
   margin: 5px;
   cursor: pointer;
 }
+/* navigation menu end*/
+/*header*/
 
+/*cover*/
 .content {
   text-align: center;
   display: flex;
@@ -106,3 +112,86 @@ header {
   letter-spacing: 3px;
   cursor: pointer;
 }
+/*cover*/
+
+/*info begin */
+.info {
+  background-image: url(images/patternbg.jpg);
+}
+
+.info article {
+  display: flex;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.artTitle {
+  margin-top: 0;
+  font-family: 'Alegreya';
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.artSubTitle {
+  font-family: 'Alegreya';
+  color: rgb(170, 134, 104);
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.artParag {
+  font-size: small;
+}
+
+.col1 {
+
+}
+
+.chef h3 {
+  font-family: 'Alegreya';
+  font-size: 21px;
+}
+
+#chefcito{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#chefcito span {
+  font-family: "Alegreya";
+  font-size: 23px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 0 9px;
+}
+
+#chefcito img {
+  margin: 0 15px;
+}
+/* section info end*/
+
+/*section recipe begin */
+
+.recipe {
+  background-image: url(images/fondo3.jpg);
+}
+
+.recipe article {
+  display: flex;
+  padding: 120px 0;
+  width: 70% !important /*consciente que no es buena practica */
+}
+
+.textArticle {
+  background-color: white;
+  padding: 50px 35px;
+}
+
+/*section recipe end */
+
+/*section serveMenu begins */
+
+
+
+/*section serveMenu begins */
