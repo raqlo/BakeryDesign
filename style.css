@@ -8,10 +8,18 @@ body {
 
 header {
   padding-top: 10px;
+
+  background-color: rgba(86, 83, 76, 0.5);
+}
+
+header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(86, 83, 76, 0.5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya'
 }
 
 /*header*/
@@ -21,7 +29,7 @@ header {
 }
 
 .cover {
-  background-image: url(images/fondo1.jpg);
+  background-image: url(images/fondo1fix.jpg);
   background-size: cover;
 }
 
@@ -127,13 +135,11 @@ header {
 
 .artTitle {
   margin-top: 0;
-  font-family: 'Alegreya';
   font-size: 40px;
   margin-bottom: 10px;
 }
 
 .artSubTitle {
-  font-family: 'Alegreya';
   color: rgb(170, 134, 104);
   text-transform: uppercase;
   margin-top: 0;
@@ -148,7 +154,6 @@ header {
 }
 
 .chef h3 {
-  font-family: 'Alegreya';
   font-size: 21px;
 }
 
@@ -185,13 +190,107 @@ header {
 
 .textArticle {
   background-color: white;
+  background-image: url(images/bg-article.png);
+  background-repeat: no-repeat;
+  background-position: 100% bottom;
   padding: 50px 35px;
 }
 
 /*section recipe end */
 
 /*section serveMenu begins */
+.serveMenu {
+  background-image: url(images/fondo2.jpg);
+  background-size: cover;
+}
 
 
+.serveMenu article {
+  display: flex;
+  padding: 30px 0;
+}
 
+.breakfast {
+  text-align: center;
+  width: 50%;
+  padding: 80px 0 0 150px;
+}
+
+.breakfast h4 {
+  color: rgb(200, 165, 147);
+}
+
+.breakfast h2 {
+  color: white;
+}
+
+.breakfast h3 {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.breakfast p {
+  font-size: small;
+  color: rgb(194, 190, 186);
+}
+
+.money {
+  font-style: italic;
+  color: rgb(223, 198, 145);
+  font-size: 29px;
+  font-weight: initial;
+  margin: 20px 0;
+}
+
+.breakfast2 {
+  width: 50%
+}
 /*section serveMenu begins */
+
+/* footer begins */
+footer {
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  color: white;
+}
+
+footer ul {
+  font-family: 'Alegreya';
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left: 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 12px;
+}
+
+
+footer figure {
+  display: inline-block;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer li:before{
+  content: '~';
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 20px 0 20px;
+  cursor: default;
+}
+
+footer li:first-child::before {
+  content: none;
+  padding-left: 0;
+}
+
+/* foorer ends*/
