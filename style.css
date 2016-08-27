@@ -4,12 +4,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   color: rgb(86, 83, 76);
+  width:
 }
 
 header {
   padding-top: 10px;
-
+  position: fixed;
   background-color: rgba(86, 83, 76, 0.5);
+  width: 100%;
 }
 
 header div {
@@ -31,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 .cover {
   background-image: url(images/fondo1fix.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #logo {
@@ -180,6 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .recipe {
   background-image: url(images/fondo3.jpg);
+  background-attachment: fixed;
 }
 
 .recipe article {
