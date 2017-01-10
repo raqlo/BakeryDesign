@@ -1,124 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bakery</title>
-    <link rel="stylesheet" href="normalize.css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="icomoon.css" media="screen" title="no title" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gustoso Bakery</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <section class="cover">
-      <header>
-        <div class="centerSection">
-        <figure id="logo"><img src="images\logo-gustoso.png" alt="logo gustoso" /></figure>
-        <nav class="navBar">
-          <ul class="mainMenu">
-            <li>Welcome</li>
-            <li>Menu</li>
-            <li>Reservation</li>
-            <li>News</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-        <ul class="socialNet">
-          <li><span class="icon-fb"></span></li>
-          <li><span class="icon-tw"></span></li>
-          <li><span class="icon-ig"></span></li>
-        </ul>
-      </div>
-      </header>
-      <div class="centerSection">
-      <div class="content">
-      <h1>
-        Pastry with love
-      </h1>
-      <p>
-      We’re bringing you fresh ingredients every day in ways you can’t resist.
-      </p>
-      <button>Our Menu</button>
-    </div>
-    </div>
-    </section>
-    <section class="info">
-      <article class="centerSection">
-      <div class="col1">
-      <h2 class="artTitle">Art of Cakes</h2>
-      <h4 class="artSubTitle">We create Delicious memories</h4>
-      <p class="artParag">
-        Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.
-      </p>
-      <div class="chef">
-        <h3>
-          Chef Cook
-        </h3>
-        <div id="chefcito">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><figure id="logo"><img src="images\logo-gustoso.png" alt="logo gustoso" /></figure></a>
+        </div>
 
-        <span>Benito</span><img src="images/chef.png" alt="" /><span>Gaspare</span>
-      </div>
-        <p class="quote">
-          Unique creations for unique occasions.
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav"> <!--- menu Items --->
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Something</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    <section class="jumbotron">
+      <div class="container">
+
+        <h1>
+          Pastry with love
+        </h1>
+        <p>
+        We’re bringing you fresh ingredients every day in ways you can’t resist.
         </p>
+        <button>Our Menu</button>
       </div>
     </div>
-    <div class="col2">
-      <img src="images/rightcontent.png" alt="" />
-    </div>
-      </article>
+  </section> <!-- /.jumbotron -->
+    <section>
+      <div class="container">
+        <article class="row">
+          <div>
+            <h2>Art of Cakes</h2>
+            <h4>We create Delicious memories</h4>
+            <p>
+              Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.
+            </p>
+            <div>
+              <h3>Chef Cook</h3>
+              <div>
+                <span>Benito</span><img src="images/chef.png" alt="" /><span>Gaspare</span>
+              </div>
+              <p>
+                Unique creations for unique occasions.
+              </p>
+            </div>
+          </div>
+          <div>
+            <img src="images/rightcontent.png" alt="" />
+          </div>
+        </article>
+      </div>
     </section>
-    <section class="recipe">
-      <article class="centerSection">
-        <img src="images/leftcontent.png" alt="" />
-        <div class="textArticle">
-        <h2 class="artTitle">Tasty Pankakes</h2>
-        <h4 class="artSubTitle">Season Favourite</h4>
-        <p class="artParag">
-          Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
-        </p>
-        <div class="galeria">
+    <section>
+      <div class="container">
+        <article class="row">
+          <div>
+            <h2>Breakfast</h2>
+            <h4>7am Breakfast? we’re open!</h4>
+            <h3>Full BreakFast</h3>
+            <p>
+              Duis ut tortor, et risus, vulputate pretium
+            </p>
+            <h4>$12.49</h4>
+            <h3>Toast and Jam</h3>
+            <p>
+              Duis ut tortor, et risus, vulputate pretium
+            </p>
+            <h4>$12.49</h4>
+            <h3>Muffins</h3>
+            <p>
+              Duis ut tortor, et risus, vulputate pretium
+            </p>
+            <h4>$12.49</h4>
+          </div>
+        </article>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <ul class="list-inline">
+            <li><a href="#">Our Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Culture</a></li>
+          </ul>
+          <figure><img src="images\logo-gustoso.png" /> </figure>
+          <ul class="list-inline">
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Catering</a></li>
+            <li><a href="#">Visit Us</a></li>
+          </ul>
         </div>
       </div>
-      </article>
     </section>
-    <section class="serveMenu">
-      <div class="centerSection">
-        <article>
-
-        <div class="breakfast">
-        <h2 class="artTitle">Breakfast</h2>
-        <h4 class="artSubTitle">7am Breakfast? we’re open!</h4>
-        <h3>Full BreakFast</h3>
-        <p class="menuDescrip">
-          Duis ut tortor, et risus, vulputate pretium
-        </p>
-        <h4 class="money">$12.49</h4>
-        <h3>Toast and Jam</h3>
-        <p class="menuDescrip">
-          Duis ut tortor, et risus, vulputate pretium
-        </p>
-        <h4 class="money">$12.49</h4>
-        <h3>Muffins</h3>
-        <p class="menuDescrip">
-          Duis ut tortor, et risus, vulputate pretium
-        </p>
-        <h4 class="money">$12.49</h4>
-      </div>
-      <div class="breakfast2"></div>
-    </article>
-    </div>
-    <footer class="centerSection">
-      <ul>
-        <li><a href="#">Our Menu</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Culture</a></li>
-      </ul>
-      <figure><img src="images\logo-gustoso.png" />  </figure>
-      <ul>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Catering</a></li>
-        <li><a href="#">Visit Us</a></li>
-      </ul>
-    </footer>
-    </section>
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>

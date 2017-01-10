@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="normalize.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="icomoon.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <section class="cover">
+      <header>
+        <div class="centerSection">
+        <figure id="logo"><img src="images\logo-gustoso.png" alt="logo gustoso" /></figure>
+        <nav class="navBar">
+          <ul class="mainMenu">
+            <li>Welcome</li>
+            <li>Menu</li>
+            <li>Reservation</li>
+            <li>News</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+        <ul class="socialNet">
+          <li><span class="icon-fb"></span></li>
+          <li><span class="icon-tw"></span></li>
+          <li><span class="icon-ig"></span></li>
+        </ul>
+      </div>
+      </header>
+      <div class="centerSection">
+      <div class="content">
+      <h1>
+        Pastry with love
+      </h1>
+      <p>
+      We’re bringing you fresh ingredients every day in ways you can’t resist.
+      </p>
+      <button>Our Menu</button>
+    </div>
+    </div>
+    </section>
+    <section class="info">
+      <article class="centerSection">
+      <div class="col1">
+      <h2 class="artTitle">Art of Cakes</h2>
+      <h4 class="artSubTitle">We create Delicious memories</h4>
+      <p class="artParag">
+        Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.
+      </p>
+      <div class="chef">
+        <h3>
+          Chef Cook
+        </h3>
+        <div id="chefcito">
+
+        <span>Benito</span><img src="images/chef.png" alt="" /><span>Gaspare</span>
+      </div>
+        <p class="quote">
+          Unique creations for unique occasions.
+        </p>
+      </div>
+    </div>
+    <div class="col2">
+      <img src="images/rightcontent.png" alt="" />
+    </div>
+      </article>
+    </section>
+    <section class="recipe">
+      <article class="centerSection">
+        <img src="images/leftcontent.png" alt="" />
+        <div class="textArticle">
+        <h2 class="artTitle">Tasty Pankakes</h2>
+        <h4 class="artSubTitle">Season Favourite</h4>
+        <p class="artParag">
+          Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
+        </p>
+        <div class="galeria">
+        </div>
+      </div>
+      </article>
+    </section>
+    <section class="serveMenu">
+      <div class="centerSection">
+        <article>
+
+        <div class="breakfast">
+        <h2 class="artTitle">Breakfast</h2>
+        <h4 class="artSubTitle">7am Breakfast? we’re open!</h4>
+        <h3>Full BreakFast</h3>
+        <p class="menuDescrip">
+          Duis ut tortor, et risus, vulputate pretium
+        </p>
+        <h4 class="money">$12.49</h4>
+        <h3>Toast and Jam</h3>
+        <p class="menuDescrip">
+          Duis ut tortor, et risus, vulputate pretium
+        </p>
+        <h4 class="money">$12.49</h4>
+        <h3>Muffins</h3>
+        <p class="menuDescrip">
+          Duis ut tortor, et risus, vulputate pretium
+        </p>
+        <h4 class="money">$12.49</h4>
+      </div>
+      <div class="breakfast2"></div>
+    </article>
+    </div>
+    <footer class="centerSection">
+      <ul>
+        <li><a href="#">Our Menu</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Culture</a></li>
+      </ul>
+      <figure><img src="images\logo-gustoso.png" />  </figure>
+      <ul>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Catering</a></li>
+        <li><a href="#">Visit Us</a></li>
+      </ul>
+    </footer>
+    </section>
+  </body>
+</html>
