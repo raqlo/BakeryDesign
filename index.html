@@ -5,12 +5,16 @@
 	<title>Gustoso Bakery</title>
 	<!-- Latest compiled and minified CSS -->
 	<!-- Latest compiled and minified CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+  <link rel="stylesheet" type="text/css" href="icomoon.css">
 </head>
 <body>
   <header class="menu-header jumbotron"> 
-    <nav class="navbar navbar-default navbar-static-top menu-header__main-menu" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top menu-header__main-menu" role="navigation">
       <div class="container">
         <div class="menu-header-center">
           <!-- it all starts with the navbar-header -->
@@ -20,11 +24,16 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
+
               </button>
-              <a class="navbar-brand" href="#">Logo</a>
+              <a class="navbar-brand" href="#">
+                <figure>
+                  <img src="images/logo-gustoso.png" alt="logo-gustoso">
+                </figure>
+              </a>
             </div>
             <!-- nav links, and other content for togglin -->
-            <div class="navbar-collapse collapse" id="navbar">
+            <div class="navbar-collapse collapse container" id="navbar">
              <ul class="nav navbar-nav nav-center">
               <li class="active">
                <a href="#">Welcome</a>
@@ -37,10 +46,10 @@
              <li><a href="#">Contact</a></li>
            </ul>
          </div> <!-- end nav-collapse -->
-         <ul class="nav navbar-nav navbar-text navbar-right menu-header__social-media">
-          <li><span class="glyphicon glyphicon-flag"></span></li>
-          <li><span class="glyphicon glyphicon-flag"></span></li>
-          <li><span class="glyphicon glyphicon-flag"></span></li>
+         <ul class="nav navbar-nav navbar-text navbar-right menu-header__social-media visible-md">
+          <li><span class="icon-fb"></span></li>
+          <li><span class="icon-tw"></span></li>
+          <li><span class="icon-ig"></span></li>
         </ul>
       </div>
     </div> <!-- End menu-header-center -->
@@ -49,39 +58,50 @@
     <h1>Pastry with love</h1>
     <p class="lead">We’re bringing you fresh ingredients every day in ways you can’t resist.</p>
     <p>
-      <a class="btn btn-primary btn-lg">Our Menu</a>
+      <a class="btn btn-primary">Our Menu</a>
     </p>
   </div>
 </header>
-<section class="container center-block">
+<section class="section-chef">
+<div class="container-fluid center-block">
   <div class="row">
-    <article class="col-md-4 col-md-offset-2 menu-article">
-      <h2 class="menu-article__title ">Art of Cakes</h2>
-      <h5 class="menu-article__sub-title"></h5>
+      <div class="section-chef__bg  col-md-offset-2 col-md-8">
+    <article class="col-md-6 menu-article  text-center">
+     
+      <h2 class="menu-article__title">Art of Cakes</h2>
+      <h5 class="menu-article__sub-title">We create delicious memories</h5>
       <p class="menu-article__text">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.</p>
       <h3 class="menu-article__chef">Chef Cook</h3>
+      <div class="menu-article__chef-details"><span>Benito</span><img src="images/chef.png"><span>Gaspare</span></div>
     </article>
-    <aside class="col-md-4 menu-article__pictures">
-      sa
+          <aside class="col-md-6 menu-article__pictures visible-lg">
+      <img src="images/rightcontent.png" />
     </aside>
+      </div>
   </div>
+</div>
 </section>
-<section class="container center-block">
+<section class="section-recipe">
+<div class="container-fluid center-block">
+
   <div class="row">
-    <aside class="col-md-3 col-md-offset-2">a</aside>
-    <article class="col-md-5 menu-article">
+  <div class="section-recipe__bg col-md-offset-2 col-md-8">
+      <aside class="col-md-5 col-md-8 col-sm-4"><img src="images/leftcontent.png"></aside>
+      <article class="col-md-7 col-sm-8 menu-article">
      <h2 class="menu-article__title ">Tasty Pancakes</h2>
      <h5 class="menu-article__sub-title">Season favorite</h5>
      <p class="menu-article__text">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.</p>
    </article>
+   </div>
  </div>
+</div>
 </section>
 <div class="bg-breakfast">
   <section class="container">
     <div class="row">
       <div class="col-md-2 col-md-offset-5">
         
-        <article class="menu-article text-center">
+        <article class="menu-article breakfast-article text-center">
           <h1 class="menu-article__title">Breakfast</h1>
           <h5 class="menu-article__sub-title">7am Breakfast? we’re open!</h5>
           <h4 class="menu-article__title-breakfast">Full BreakFast</h4>
@@ -99,6 +119,8 @@
   </section>
   <footer>
     <div class="container">  
+  <div class="row">
+
       <div class="navbar navbar-static-bottom">
         <div class="menu-footer-center">
           <ul class="nav navbar-nav">
@@ -107,7 +129,7 @@
             <li><a href="#">Culture</a></li>
           </ul>
           <figure>
-            <img src="images\logo-gustoso.png" />
+            <img class="visible-lg" src="images\logo-gustoso.png" />
           </figure>
           <ul class="nav navbar-nav">
             <li><a href="#">Events</a></li>
@@ -115,6 +137,7 @@
             <li><a href="#">Visit Us</a></li>
           </ul>
         </div> 
+      </div>
       </div>
     </div>
   </footer>
