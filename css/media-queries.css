@@ -1,0 +1,19 @@
+@media only screen and (max-width:1051px) {
+
+}
+@media only screen and (max-width:767px) {
+
+	.menu-header-center {
+		display: block;
+	}
+
+	.navbar-default .navbar-text {
+		display: block;
+		color: rgb(119, 119, 119);
+	}
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}

@@ -1,35 +1,281 @@
 /*css*/
+@import 'https://fonts.googleapis.com/css?family=Alegreya:400,700|Montserrat|Playfair+Display:700';
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: rgb(86, 83, 76);
+  width:
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya';
+  font-weight: 400;
+}
+
+nav {
+	margin: 0;
+}
 
 /* ==========================================================================
    Header
    ========================================================================== */
+.menu-header__main-menu {
+	font-family:'Alegreya', serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	background-color: rgba(86, 83, 76, 0.5);
+	 border: none ;
+	padding: 10px 0;
+}
 
+.navbar-brand {
+  padding: 5px;
 
+}
 
-.menu-header {}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: none;
+	font-weight: 700;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.menu-header__social-media > li {
+	margin: 0 5px;
+	color: #fff;
+}
+
+/* .navbar-default .navbar-nav>li>a:after{
+  content: '~';
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0 20px 0 20px;
+  cursor: default;
+}
+
+.navbar-default .navbar-nav>li>a:first-child:after{
+  content: '';
+} */
 
 .menu-header-center {
 	display: flex;
 	justify-content: space-between;
 }
 
-menu-header__main-menu {}
-
 /* Jumbotron
    ========================================================================== */
 .jumbotron {
 	padding-top: 0;
+
 }
 
-   
+.menu-header .menu-main-content {
+	height: 600px;
+	background-image: url('../images/fondo1fix.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+.menu-header .menu-main-content > h1{
+	margin: 0;
+	padding-top: 200px;
+	font-family: 'Playfair Display';
+	text-shadow:2px 2px rgba(86, 83, 76, 0.5);
+}
+
+.menu-header .menu-main-content > p {
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+
+.menu-header .menu-main-content  p > a {
+	background-color: rgba(86, 83, 76, 0.5);
+	border: none;
+	border-radius: 0;
+	font-family: 'Alegreya';
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
 /* ==========================================================================
-   Main Article
+     Body 
+     ========================================================================== */  
+
+/* Section 1
    ========================================================================== */
-/*****************Start Main Article *******************/
-/*****************End Main Article *******************/
+
+.menu-article {
+	   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 200px;
+	
+}
+
+
+.menu-article__sub-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgb(170, 134, 104);
+	margin-bottom: 30px;
+
+}
+
+.menu-article__text {
+	font-size: 10px;
+	line-height: 20px;
+}
+
+.menu-article__chef {
+	font-size: 21px;
+	font-family: 'Alegreya';
+	font-weight: 700;
+}
+
+.menu-article__chef-details {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alegreya';
+    font-size: 23px;
+}
+
+.menu-article__chef-details > img {
+	margin: 10px 20px;
+}
+
+.menu-article__pictures img {
+	width: 100%;
+	margin: 50px 0;
+}
+
+.section-chef__bg {
+    display: flex;
+    
+}
+
+.section-chef {
+    
+}
+
+.section-recipe .col-md-5 {
+    padding-left: 0;
+}
+
+
+/* Section 3
+========================================================================== */
+
+.bg-breakfast {
+    
+    background-image: url('../images/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-article__title-breakfast {
+    color: white;
+    font-weight: 700;
+    
+}
+
+.menu-article__menu-description-breakfast {
+    color: white;
+    width: 300px;
+}
+
+.menu-article__price-breakfast {
+    color:white;
+}
+
+.breakfast-article {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Section 2
+========================================================================== */
+
+
+.section-recipe {
+    background-image: url('../images/fondo3.jpg');
+
+
+}
+
+.section-recipe .section-recipe__bg{
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 0;
+    background-image: url(../images/bg-article.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 2px;
+}
+.section-recipe aside > img {
+    width: 100%;
+}
+
+/* Footer
+========================================================================== */
+.bg-breakfast .menu-article__title {
+    font-weight: 700;
+    color: white;
+}
+
 
 .menu-footer-center {
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    font-family:'Alegreya', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-top:15px;
+    margin-bottom: 15px;px;
 }
+
+.menu-footer-center  img {
+    padding: 0 30px;
+}
+.menu-footer-center li a {
+    color: #fff;
+    border-top: 1px solid white;
+}
+
+.bg-breakfast .menu-footer-center li a:hover {
+    background: none;
+    color: saddlebrown;
+}
+
+
+@media screen and (max-width: 987px) {
+    .navbar-default .navbar-nav>li>a {
+        padding-right: 3px;
+    }
+
+    .section-recipe {
+        background-image: none;
+    }
+    .section-recipe .section-recipe__bg{
+        padding-left: 20px;
+
+    }
+
+}
+
