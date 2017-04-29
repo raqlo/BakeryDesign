@@ -12,8 +12,19 @@
 		color: rgb(119, 119, 119);
 	}
 
-}
+	.menu-footer-center {
+		display: block;
+		text-align: center
+	}
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+	.section-recipe aside > img {
+		width: 30%;
+		display: none;
+	}
+
+	.navbar-toggle .icon-bar {
+		color: white;
+		display: block;
+	}
+
 }

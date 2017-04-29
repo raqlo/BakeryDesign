@@ -56,6 +56,22 @@ nav {
 	color: #fff;
 }
 
+.navbar-default .navbar-toggle.collapsed {
+    border-color: #A4ABB0;
+}
+
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+    background-color: #A4ABB0;
+}
+
+.navbar-default .navbar-toggle{
+    border-color:#fff ;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color:#fff;
+}
+
+
 /* .navbar-default .navbar-nav>li>a:after{
   content: '~';
   font-size: 14px;
@@ -184,6 +200,7 @@ nav {
     background-image: url('../images/fondo2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .menu-article__title-breakfast {
@@ -263,6 +280,7 @@ nav {
     color: saddlebrown;
 }
 
+@import 
 
 @media screen and (max-width: 987px) {
     .navbar-default .navbar-nav>li>a {
